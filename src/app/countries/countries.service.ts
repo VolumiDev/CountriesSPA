@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, of, map } from 'rxjs';
+import { catchError, Observable, of, map, tap } from 'rxjs';
 import { Country } from './interfaces/Country';
 
 @Injectable({
